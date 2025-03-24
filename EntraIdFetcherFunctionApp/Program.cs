@@ -19,7 +19,7 @@ builder.Services.AddLogging(logging =>
     logging.SetMinimumLevel(LogLevel.Information);
 });
 
-// Registering the configuration as a singleton shared as one and it can be injected anywhere
+// Registering the configuration as a singleton shared as one instance and it can be injected anywhere
 builder.Services.AddSingleton(builder.Configuration);
 
 // Register custom services such as IGraphAuthProvider is the interface and GraphServiceClientProvider is the class implementing the logic
