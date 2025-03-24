@@ -11,7 +11,7 @@ var builder = FunctionsApplication.CreateBuilder(args);
 // Configuring Azure Functions pipeline for HTTP trigger 
 builder.ConfigureFunctionsWebApplication();
 
-// Logging enable using Console + Debug (for local debugging) 
+// Logging enable using Console and Debug (for local debugging) 
 builder.Services.AddLogging(logging =>
 {
     logging.AddConsole();
