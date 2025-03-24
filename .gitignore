@@ -2,7 +2,7 @@
 .vs/
 bin/
 obj/
-Properties/
+EntraIdFetcherFunctionApp/Properties/
 
 
 # Ignore appsettings containing secrets
